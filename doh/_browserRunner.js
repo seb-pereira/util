@@ -665,7 +665,7 @@ define([
 					doh.showTestPage();
 					byId("testBody").src = url;
 				},
-				timeout: timeout||10000, // 10s
+				timeout: 40000,//timeout||10000, // 10s
 				// timeout: timeout||1000, // 10s
 				runTest: function(){
 					// FIXME: implement calling into the url's groups here!!
